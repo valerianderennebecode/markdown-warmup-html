@@ -1,5 +1,6 @@
 body {
     background-color: pink;
+    font: arial;
   }
   
   h1 {
@@ -10,12 +11,19 @@ body {
       color : green
   }
   table {
-      color: red
-      text-align: center
+    border-collapse: collapse;
+    border: 1px solid black;
+  } 
+  
+  th,td {
+    border: 1px solid black;
+  }
+  table.a {
+      color: white;
+      table-layout: fixed;
+      text-align: center;
+      width: 100%;
 
   }
-  tr {
-      color: yellow
-      
-
-  }
+  p.center { text-align: center}
+  
