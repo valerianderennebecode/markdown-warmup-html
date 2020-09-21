@@ -1,0 +1,21 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: navy;
+    text-align: center
+  }
+  h2 {
+      color : green
+  }
+  table {
+      color: red
+      text-align: center
+
+  }
+  tr {
+      color: yellow
+      
+
+  }
